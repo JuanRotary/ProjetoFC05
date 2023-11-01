@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: hsl(84, 100%, 59%);
+  }
+
+select {
+    padding: 5px;
+    background-color:hsl(84, 100%, 59%);
+    width: 400px ;
+    font-size: 15px;
+
+}
+#InfoElemento {
+    display: none;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.hover {
+    --s: 0.1em; 
+    --c: #4dff00; 
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#ffffff 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  .hover:hover {
+    --_p: 100%
+  }
+  
+  h1 {
+    font-family: system-ui, sans-serif;
+    font-size: 3rem;
+    margin:0;
+    cursor: pointer;
+    padding: 0 .1em;
+  }
+  img {
+    width: 1000px;
+  }
+
+  h2{
+    color: #00ff77;
+    background-color: #333 ;
+    font-size: 60px;
+  }
+
+  p{
+    font-size: 30px;
+    color: #4dff00;
+  }
+span{
+  color: rgb(0, 255, 119);
+  
+}
+option{
+  text-align: center;
+  font-size: 15px;
+}
+label{
+  font-size: 25     px;
+}
